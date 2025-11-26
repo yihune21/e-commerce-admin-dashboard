@@ -4,7 +4,7 @@ function LoginPage() {
   let navigate = useNavigate();
   const handleOnSubmit = (e: any) => {
     e.preventDefault();
-    navigate("/home");
+    navigate("/dashboard");
   };
 
   return (
